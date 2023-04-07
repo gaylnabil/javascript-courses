@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+#outer-content{
+
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 2px solid #ff0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-content{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    border: 2px solid #111111;
+}
+#window{
+    margin-top:20px;
+}
+
+.hidden{
+    display: none;
+}
